@@ -21,7 +21,7 @@
 <div class="container">
 <div class="span-24 last">
 	<div class="notice" id='spinner' style="display:none;">
-	<p><%= image_tag "loading.gif", :style => 'margin-right:3px;'%>Let's load some data! Right now we're querying the ArcGIS Server REST API... </p>								 
+	<span>Let's load some data!<%= image_tag "loading.gif", :style => 'display:block;'%></span>								 
 	</div>
 </div>
 <div class="span-24 last">
@@ -40,12 +40,13 @@
 		<a href="http://www.arcgisonline.com/home/"><img src="images/ags.png" alt="get data"/></a>
 		</div>	
 		
-		<div class="span-21 prepend-top append-bottom last">
+		<div class="span-21 prepend-top last">
 		<h1 class="ga">Get your Mash-up Freak On!</h1>
 		<p class="headline">Ruby is a fun language, and Rails streamlines the bejeesus out of
 		web development. ArcGIS Server has API's that are <span style="text-decoration:line-through;">easy to consume</span> consumable! </p>
 		<p class="headline">Come on, jump in! The water is warm!</p>
 		</div>
+							
 	</div>	
 </div>
 	

@@ -9,13 +9,6 @@
 	
 	<% @results.each do |result| %>
 	<div class="container">
-		<div class="span-24 last notice">
-			<p>This page makes 3 requests - the first to the REST api to get the attributes. Once have them, I call QueryFeatureData 
-			on the SOAP API using 
-			the ObjectId to get the parcel geometry. Conveniently the response has the envelope of the
-			 parcel. I then expand that by 50%, and then make a second SOAP request, this time to ExportMap which returns the url
-			 of the map image. I'm still working on getting the parcel hilighed.</p>
-		</div>
 		<div class="span-24 append-bottom last">
 			<div id="results" class="span-24 prepend-top last">
 				<div class="span-12">

@@ -37,10 +37,12 @@ padding-top:0;
 }
 
 #footer{
-background-color:#033649;
-height:120px;
+background-color:#EEEEEE;
+border-top:solid 1px #ccc;
+height:180px;
 }
-
+#footer h3, #footer p{color:#888;}
+#spinner p{font-size:1.8em;}
 p.headline{
 font-size:2em;
 }
@@ -62,11 +64,12 @@ h1.ga{
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin: 0 auto -120px; /* the bottom margin is the negative value of the footer's height */
+	margin: 0 auto -180px; /* the bottom margin is the negative value of the footer's height */
 }
 .footer, .push {
-	height: 120px; /* .push must be the same height as .footer */
+	height: 180px; /* .push must be the same height as .footer */
 }
+
 
 .search_prompt {
 color:#548330;

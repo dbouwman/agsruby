@@ -7987,3 +7987,234 @@ Processing HomeController#search (for 127.0.0.1 at 2010-03-10 20:43:52) [POST]
 Rendering home/search
 Rendered home/_results (0.0ms)
 Completed in 4031ms (View: 4, DB: 0) | 200 OK [http://localhost/home/search?method=get]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-10 22:01:48) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 6352ms (View: 6349, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-10 22:15:01) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-10 22:16:48) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-10 22:17:27) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-10 22:20:23) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-10 22:20:52) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-10 22:22:47) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 21ms (View: 19, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-03-10 22:23:04) [GET]
+Rendering template within layouts/home
+Rendering home/about
+Completed in 60ms (View: 58, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-03-10 22:24:43) [GET]
+Rendering template within layouts/home
+Rendering home/about
+Completed in 23ms (View: 21, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-03-10 22:30:48) [GET]
+Rendering template within layouts/home
+Rendering home/about
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/home/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-10 22:30:55) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#search (for 127.0.0.1 at 2010-03-10 22:31:03) [POST]
+  Parameters: {"commit"=>"", "search_criteria"=>"", "method"=>"get", "authenticity_token"=>"WhDF2JkMAN+45rorP9J9WO9Va/eaQS1rw3eQewDTXEw=", "search_type"=>"OWNER1"}
+Rendering home/search
+Rendered home/_results (245.0ms)
+Completed in 1242ms (View: 390, DB: 0) | 200 OK [http://localhost/home/search?method=get]
+
+
+Processing HomeController#search (for 127.0.0.1 at 2010-03-10 22:33:43) [POST]
+  Parameters: {"commit"=>"", "search_criteria"=>"asdas", "method"=>"get", "authenticity_token"=>"WhDF2JkMAN+45rorP9J9WO9Va/eaQS1rw3eQewDTXEw=", "search_type"=>"OWNER1"}
+Rendering home/search
+Rendered home/_results (0.0ms)
+Completed in 3532ms (View: 4, DB: 0) | 200 OK [http://localhost/home/search?method=get]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-10 22:33:47) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#search (for 127.0.0.1 at 2010-03-10 22:33:55) [POST]
+  Parameters: {"commit"=>"", "search_criteria"=>"asdas", "method"=>"get", "authenticity_token"=>"WhDF2JkMAN+45rorP9J9WO9Va/eaQS1rw3eQewDTXEw=", "search_type"=>"OWNER1"}
+Rendering home/search
+Rendered home/_results (0.0ms)
+Completed in 3523ms (View: 4, DB: 0) | 200 OK [http://localhost/home/search?method=get]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-10 22:34:56) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#search (for 127.0.0.1 at 2010-03-10 22:35:07) [POST]
+  Parameters: {"commit"=>"", "search_criteria"=>"OREGON", "method"=>"get", "authenticity_token"=>"WhDF2JkMAN+45rorP9J9WO9Va/eaQS1rw3eQewDTXEw=", "search_type"=>"OWNER1"}
+Rendering home/search
+Rendered home/_results (0.0ms)
+Completed in 1772ms (View: 4, DB: 0) | 200 OK [http://localhost/home/search?method=get]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-10 22:35:31) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 19ms (View: 16, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#search (for 127.0.0.1 at 2010-03-10 22:35:36) [POST]
+  Parameters: {"commit"=>"", "search_criteria"=>"OREGON", "method"=>"get", "authenticity_token"=>"WhDF2JkMAN+45rorP9J9WO9Va/eaQS1rw3eQewDTXEw=", "search_type"=>"OWNER1"}
+Rendering home/search
+Rendered home/_results (174.0ms)
+Completed in 2084ms (View: 323, DB: 0) | 200 OK [http://localhost/home/search?method=get]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-10 22:36:17) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 19ms (View: 17, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#search (for 127.0.0.1 at 2010-03-10 22:36:23) [POST]
+  Parameters: {"commit"=>"", "search_criteria"=>"OREGON", "method"=>"get", "authenticity_token"=>"WhDF2JkMAN+45rorP9J9WO9Va/eaQS1rw3eQewDTXEw=", "search_type"=>"OWNER1"}
+Rendering home/search
+Rendered home/_results (169.0ms)
+Completed in 2080ms (View: 234, DB: 0) | 200 OK [http://localhost/home/search?method=get]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-10 22:37:06) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-10 22:38:57) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 21ms (View: 20, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-10 22:40:18) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#search (for 127.0.0.1 at 2010-03-10 22:40:24) [POST]
+  Parameters: {"commit"=>"", "search_criteria"=>"OREGON", "method"=>"get", "authenticity_token"=>"WhDF2JkMAN+45rorP9J9WO9Va/eaQS1rw3eQewDTXEw=", "search_type"=>"OWNER1"}
+Rendering home/search
+Rendered home/_results (170.0ms)
+Completed in 2137ms (View: 236, DB: 0) | 200 OK [http://localhost/home/search?method=get]
+
+
+Processing ParcelController#index (for 127.0.0.1 at 2010-03-10 22:40:32) [GET]
+  Parameters: {"id"=>"3N5000001900"}
+Rendering template within layouts/parcel
+Rendering parcel/index
+Completed in 5989ms (View: 69, DB: 0) | 200 OK [http://localhost/parcel/3N5000001900]
+
+
+Processing ParcelController#index (for 127.0.0.1 at 2010-03-10 22:41:37) [GET]
+  Parameters: {"id"=>"3N5000001900"}
+Rendering template within layouts/parcel
+Rendering parcel/index
+Completed in 3957ms (View: 83, DB: 0) | 200 OK [http://localhost/parcel/3N5000001900]
+
+
+Processing ParcelController#index (for 127.0.0.1 at 2010-03-10 22:45:23) [GET]
+  Parameters: {"id"=>"3N5000001900"}
+Rendering template within layouts/parcel
+Rendering parcel/index
+Completed in 4808ms (View: 23, DB: 0) | 200 OK [http://localhost/parcel/3N5000001900]
+
+
+Processing ParcelController#index (for 127.0.0.1 at 2010-03-10 22:48:28) [GET]
+  Parameters: {"id"=>"3N5000001900"}
+Rendering template within layouts/parcel
+Rendering parcel/index
+Completed in 5122ms (View: 20, DB: 0) | 200 OK [http://localhost/parcel/3N5000001900]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-10 22:49:07) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-10 22:50:10) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#search (for 127.0.0.1 at 2010-03-10 22:50:24) [POST]
+  Parameters: {"commit"=>"", "search_criteria"=>"dave", "method"=>"get", "authenticity_token"=>"yMtME9KATz2auxuLwVdnuGkQdO/MUw8sFM5rUjedlYg=", "search_type"=>"OWNER1", "_"=>""}
+Rendering home/search
+Rendered home/_results (135.0ms)
+Completed in 4010ms (View: 249, DB: 0) | 200 OK [http://localhost/home/search?method=get]
+
+
+Processing HomeController#search (for 127.0.0.1 at 2010-03-10 22:50:35) [POST]
+  Parameters: {"commit"=>"", "search_criteria"=>"jill", "method"=>"get", "authenticity_token"=>"yMtME9KATz2auxuLwVdnuGkQdO/MUw8sFM5rUjedlYg=", "search_type"=>"OWNER1", "_"=>""}
+Rendering home/search
+Rendered home/_results (190.0ms)
+Completed in 2779ms (View: 325, DB: 0) | 200 OK [http://localhost/home/search?method=get]
+
+
+Processing ParcelController#index (for 127.0.0.1 at 2010-03-10 22:50:41) [GET]
+  Parameters: {"id"=>"2N5260000402"}
+Rendering template within layouts/parcel
+Rendering parcel/index
+Completed in 4700ms (View: 12, DB: 0) | 200 OK [http://localhost/parcel/2N5260000402]
+
+
+Processing ParcelController#index (for 127.0.0.1 at 2010-03-10 22:51:15) [GET]
+  Parameters: {"id"=>"2N5260000402"}
+Rendering template within layouts/parcel
+Rendering parcel/index
+Completed in 4110ms (View: 12, DB: 0) | 200 OK [http://localhost/parcel/2N5260000402]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-10 22:52:05) [GET]
+Rendering template within layouts/home
+Rendering home/index
+Completed in 20ms (View: 18, DB: 0) | 200 OK [http://localhost/home]

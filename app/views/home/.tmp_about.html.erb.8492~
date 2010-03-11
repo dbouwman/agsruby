@@ -17,7 +17,7 @@
 		shows that it is possible (despite having to get up close and really personal with the underlying Xml).</p>
 		<h2>About the code...</h2>
 		<p>The code for this application will be pushed up to GitHub. I used the arcserver.rb project as a starting point for some of my code. I'm
-		not planning on pushing that back into a fork of that project because what I ended up with is so very very tied to my project that it's not
+		no planning on pushing that back into a fork of that project because what I ended up with is so very very tied to my project that it's not
 		worth pushing back up. I suppose some refactoring could help clean things up a little, but I'm really tight for time, so feel free to pull out
 		that code and push it into your own fork of arcserver.rb.</p>
 		<h2>Contact me...</h2>

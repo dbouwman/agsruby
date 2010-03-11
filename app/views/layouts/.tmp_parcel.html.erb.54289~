@@ -30,24 +30,13 @@
 	</div>
 	<div id="footer">
 		<div class="container">
-			<div class="span-8 prepend-top">
-				<h3>Uhhh What is this?</h3>
-				<p>This little ditty was whipped up more or less on a dare. I wanted a reason to learn some Ruby on Rails
-				and what better way than by commiting to speak about it at a 
-				<a href="http://www.esri.com/events/devsummit/index.html">conference.</a></p>
+			<div class="span-24 prepend-top last">
+				<h2>Teh Footerz bes needing to hav some goodies.</h2>
 			</div>
-			<div class="span-8 prepend-top">
-				<h3>Who did this?</h3>
-				<p>Ok, I'll admit it - I did this. But who am I you ask? Find out <a href="http://blog.davebouwman.com">here</a> or just
-				drop me a line at dave [at] davebouwman [dot] com</p>
-			</div>
-			<div class="span-8 prepend-top last">
-				<h3>This data is wrong!</h3>
-				<p>Yes, it likely is! This is just a technology demo site - if you are looking for real data for Portland, got to
-				<a href="http://www.portlandmaps.com/detail.cfm?action=Explorer&ZoomLevel=1&x=7655000&y=680000">PortlandMapsOnline.com</a></p>
-			</div>		
+							
 		</div>
 	</div>
+
 </body>
 
 </html>
