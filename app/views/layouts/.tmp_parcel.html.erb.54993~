@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+ 
+<html xmlns="http://www.w3.org/1999/xhtml" > 
+<head>
+	<%= stylesheet_link_tag "blueprint/screen" %>
+	<%= stylesheet_link_tag "site" %>	
+	<%= javascript_include_tag :defaults %>
+</head>
+
+<body>
+	<div class="wrapper">
+	<div id="header">
+		<div class="container">
+			<div class="span-18">
+				<%= image_tag "logo-large.png", :class => 'left'%>		
+			</div>
+			<div class="span-6 last">
+				<div id="nav_container">
+					<ul id="nav">
+						<li><%= link_to "<h3>Search</h3>", :controller=>'home', :action=>'index' %></li>
+						<li><a href="#"><h3>Code</h3></a></li>
+						<li><a href="about.htm"><h3>About</h3></a></li>
+					</ul>
+				</div>
+			</div>	
+		</div>
+	</div>		
+	<%= yield %>
+	<div class="push"></div>
+	</div>
+	<div id="footer">
+		<div class="container">
+			<div class="span-24 prepend-top last">
+				<div style="float:right;">				
+				<a href="http://www.dtsagile.com"><img src="images/dtsagile-logo.png" alt="dtsagile"/></a>
+				</div>
+			</div>
+							
+		</div>
+	</div>
+
+</body>
+
+</html>

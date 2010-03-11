@@ -1,0 +1,53 @@
+
+
+<div id="searchbar">
+	<div class="container">
+		<div class="span-24 last">				
+				<% form_remote_tag(:url => {:action => 'search',:method => 'get'},
+					:before => "Element.show('spinner');",
+					:complete => "Element.hide('spinner');"
+					) do %>
+				<label for="search_type" class="search_prompt">Search for parcels where:</label>
+				<%= select_tag(:search_type, options_for_select([['Owner','OWNER1'],['Tax Id','TLID']],'owner'))%>
+				<span class="search_prompt">is</span>
+				<%= text_field_tag(:search_criteria) %> 
+				<%= submit_tag "", :class =>"search_button" %> 
+				
+				<% end-%>
+			</form>
+		</div>
+	</div>
+</div>
+<div class="container">
+<div class="span-24 last">
+	<div class="notice" id='spinner' style="display:none;">
+	<span>Let's load some data!<%= image_tag "loading.gif", :style => 'display:block;'%></span>								 
+	</div>
+</div>
+<div class="span-24 last">
+	<div id="results" class="span-21 prepend-top prepend-1 append-1 last">
+		<div class="span-7">
+		<span class="chunk">Get Ruby</span>
+		<a href="http://ruby-lang.org"><img src="images/ruby.png" alt="get ruby"/></a>
+		</div>
+		
+		<div class="span-7">
+		<span class="chunk">Get Rails</span>
+		<a href="http://rubyonrails.org"><img src="images/rails.png" alt="get rails"/></a>
+		</div>
+		<div class="span-7 last">
+		<span class="chunk">Get Data</span>
+		<a href="http://www.arcgisonline.com/home/"><img src="images/ags.png" alt="get data"/></a>
+		</div>	
+		
+		<div class="span-21 prepend-top last">
+		<h1 class="ga">Get your Mash-up Freak On!</h1>
+		<p class="headline">Ruby is a fun language, and Rails streamlines the bejeesus out of
+		web development. ArcGIS Server has API's that are <span style="text-decoration:line-through;">easy to consume</span> consumable! </p>
+		<p class="headline">Come on, jump in! The water is warm!</p>
+		</div>
+							
+	</div>	
+</div>
+	
+</div>

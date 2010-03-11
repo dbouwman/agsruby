@@ -1,0 +1,5 @@
+<tr >
+	<td><a href="#"><%= parcel_row[:attributes][:TLID]%></a></td>
+	<td>Joe Smith</td>
+	<td>123 Main St</td>
+</tr>

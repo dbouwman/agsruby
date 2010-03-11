@@ -1,0 +1,58 @@
+	<div id="searchbar">
+		<div class="container">
+			<div class="span-24 last">								
+				<p class="search_prompt">Details for Parcel: <%=@taxid%></p>					
+			</div>
+
+		</div>
+	</div>
+	
+	<% @results.each do |result| %>
+	<div class="container">
+		<div class="span-24 append-bottom last">
+			<div id="results" class="span-24 prepend-top last">
+				<div class="span-12">
+					<h2>Parcel Record: <%=result['attributes']['RNO']%> </h2>
+				</div>
+
+				<div class="span-12 last">
+					<h2>Tax Id: <%=@taxid%></h2>
+				</div>
+				<hr/>
+				<div class="span-12 prepend-top">
+					<h2>Site Details</h2>
+					<p>Street Number: <%=result['attributes']['SITESTRNO']%></p>
+					<p>Address: <%=result['attributes']['SITEADDR']%></p>
+					<p>City: <%=result['attributes']['SITECITY']%> </p>
+					<p>Year Built: <%=result['attributes']['YEARBUILT']%></p>
+					<p>Land Use: <%=result['attributes']['LANDUSE']%></p>
+					<p>Tax Code: <%=result['attributes']['TAXCODE']%> </p>
+					<p>Acres: <%=result['attributes']['A_T_ACRES']%></p>
+					<p>Building SQFT: <%=result['attributes']['BLDGSQFT']%> </p>
+				</div>
+				<div class="span-12 prepend-top append-bottom last">
+					<img class="map_image" src="<%=@mapUrl%>" alt="map" />
+				</div>
+				<hr/>
+				<div class="span-12 prepend-top">
+					<h2>Owner Details</h2>
+					<p>Name:  <%=result['attributes']['OWNER1']%></p>
+					<p><%=result['attributes']['OWNER2']%></p>
+					<p><%=result['attributes']['OWNER3']%></p>
+					<p>Address:<%=result['attributes']['OWNERADDR']%> </p>
+					<p>City: <%=result['attributes']['OWNERCITY']%></p>
+					<p>ZIP: <%=result['attributes']['OWNERZIP']%></p>
+
+				</div>
+				<div class="span-12 prepend-top last">
+					<h2>Valuation </h2>
+					<p>Land:$<%=result['attributes']['LANDVAL']%></p>
+					<p>Building:$<%=result['attributes']['BLDGVAL']%></p>
+					<p>Total:$<%=result['attributes']['TOTALVAL']%></p>
+					<p>Last Sale Date: <%=result['attributes']['SALEDATE']%> </p>
+					<p>Sale Price:$<%=result['attributes']['SALEPRICE']%> </p>					
+				</div>				
+			</div>
+		</div>		
+	</div>
+	<%end -%>

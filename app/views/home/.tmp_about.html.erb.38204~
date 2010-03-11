@@ -1,0 +1,42 @@
+<div id="searchbar">
+	<div class="container">
+		<div class="span-24 last">				
+				&nbsp;
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="span-24 last">
+
+		<h2>About this Application</h2>
+		<p>This application was created to explore the use of ArcGIS Server in conjunction with a
+			Ruby on Rails application. </p>
+	</div>
+	<div class="span-7 append-1">
+			<h2>Packages Utilized</h2>
+			<ul>
+				<li>Ruby 1.8.7</li>
+				<li>Rails 2.3.5</li>
+				<li>HTTParty</li>
+				<li>HandSoap</li>
+				
+			</ul>
+	</div>
+	<div class="span-7 append-1">
+			<h2>Tools</h2>
+			<ul>
+				<li>RadRails</li>
+				<li>SoapUI</li>
+				<li>ArcGIS Server</li>				
+			</ul>
+	</div>
+	<div class="span-7 append-1 last">
+			<h2>Thanks To...</h2>
+			<ul>
+				<li>Rails Guides</li>
+				<li>arcservder.rb</li>
+				<li>My Wife who put up with this project eating up evenings for much too long</li>				
+			</ul>
+	</div>
+</div>

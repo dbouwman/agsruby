@@ -1,0 +1,18 @@
+	<% if flash[:notice] -%>
+		<div class="notice"><%= flash[:notice] %></div>
+	<% else %>
+	<table id="results_table">
+		<thead>
+			<th>Tax ID</th>
+			<th>Owner</th>
+			<th>Address</th>
+		</thead>
+		<% @results.each do |result| %>
+		<tr class="<%= cycle("even", "odd") %>">
+			<td><%= link_to result['attributes']['TLID'], :controller=>'parcel',:action=>'index',:id=>result['attributes']['TLID'] %></td>
+			<td><%=result['attributes']['OWNER1']%> <%=result['attributes']['OWNER2']%> <%=result['attributes']['OWNER3']%></td>
+			<td><%=result['attributes']['SITEADDR']%></td>
+		</tr>
+		<%end-%>
+	</table>
+	<% end -%>
